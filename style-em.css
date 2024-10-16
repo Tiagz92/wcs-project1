@@ -1,0 +1,147 @@
+:root {
+    --primarycolor: #F2D6AE;
+    --secondcolor: #404F69;
+    --thirdcolor: #B56C60;
+    --cardcolor: #D9D9D9;
+    --imgsize: 215px;
+    --bordertop: 10px 10px 0 0;
+    --borderbottom: 0 0 10px 10px;
+}
+
+body {
+    background-color: var(--primarycolor);
+    font-family: "Josefin sans";
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    color: var(--secondcolor);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; ; 
+    padding: 20px; 
+    background-color: #F2D6AE; 
+}
+
+.steve-jobs {
+    border-radius: var(--bordertop);
+    width: var(--imgsize);
+    border: 2px solid #404F69;
+}
+
+.steve-description {
+    background-color: var(--cardcolor);
+    border-radius: var(--borderbottom);
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.25);
+    border: 2px solid #404F69;
+    padding: 10px;
+}
+
+.steve-description h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.steve-description p {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.steven-spielberg {
+    border-radius: var(--bordertop);
+    width: var(--imgsize);
+    border: 2px solid #404F69;
+}
+
+.spielberg-description {
+    background-color: var(--cardcolor);
+    border-radius: var(--borderbottom);
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.25);
+    border: 2px solid #404F69;
+    padding: 10px;
+}
+
+.spielberg-description h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.spielberg-description p {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.lewis-hamilton {
+    border-radius: var(--bordertop);
+    width: var(--imgsize);
+    border: 2px solid #404F69;
+}
+
+.lewis-description {
+    background-color: var(--cardcolor);
+    border-radius: var(--borderbottom);
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.25);
+    border: 2px solid #404F69;
+    padding: 10px;
+}
+
+.lewis-description h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.lewis-description p {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px;
+}
+
+summary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 24px;
+    cursor:pointer;
+    color: var(--secondcolor);
+}
+
+.spoiler-content {
+    margin: 25px;
+    color: var(--secondcolor);
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.sparkles {
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
