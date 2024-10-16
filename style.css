@@ -1,0 +1,94 @@
+/* Style global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F9E4C8;
+    color: #4A4A4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+/* Styles pour le layout */
+.layout {
+    max-width: 800px;
+    background-color: #3A4E5F;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #F4EBD0;
+}
+
+.main-title {
+    font-size: 2rem;
+    text-align: center;
+    color: #3A4E5F;
+    margin-bottom: 2%;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Styles pour les sous-titres */
+.subtitle {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #2C2C2C;
+    font-style: italic;
+}
+
+/* Styles pour la section historique */
+.historique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.portrait {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.historique-text {
+    font-size: 1rem;
+    max-width: 600px;
+    color: #4A4A4A;
+}
+
+/* Styles pour le carrousel */
+.carousel {
+    width: 510px;
+    height: 300px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slides img {
+    width: 510px;
+    height: 300px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
