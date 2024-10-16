@@ -40,8 +40,12 @@ main {
 
 
 footer {
+
+    display: flex; /* Utilise Flexbox pour le footer */
+    justify-content: center; /* Centre les éléments du footer */
+    align-items: center; /* Centre verticalement */
     background-color: #404f69;
-    padding: 65px;
+    padding: 40px;
 
 }
 
@@ -50,7 +54,6 @@ footer {
 .Copyright-logos {
     display: flex; /* Utilise Flexbox pour l'alignement */
     align-items: center; /* Centre verticalement les éléments */
-    justify-content: flex-end; /* Aligne la liste à droite */
     list-style-type: none; /* Supprime les puces de la liste */
     padding: 0; /* Supprime le padding par défaut */
     margin: 0; /* Supprime la marge par défaut */
@@ -58,15 +61,47 @@ footer {
 }
 
 .Copyright-logos li {
-    /* Optionnel : ajout d'un style pour les <li> */
-    margin-left: 10px; /* Ajoutez une marge à gauche si nécessaire */
+    margin-left: 10px; /* Espace entre les logos */
+    display: flex; /* Utilise Flexbox pour l'alignement */
+    align-items: center; /* Centre verticalement les éléments */
+}
+
+.Copyright-logos li img {
+    width: 40px; /* Ajustez cette valeur selon vos besoins */
+    height: auto; /* Maintient le ratio d'aspect */
+    max-width: 100%; /* Empêche l'image de dépasser son conteneur */
+    gap: 1%;
+    align-items: center;
 }
 
 
+.copyright {
+    
+    margin-right: 250px;
+    color: #F2D6AE;
+   
+}
 
 
+.newsletter {
+    text-align: center;
+    margin: 20px 0;
+    color: #F2D6AE;
+    text-decoration: none;
+}
 
+.quote {
+    text-align: center;
+    font-style:italic;
+    color: #F2D6AE;
+    text-decoration: none;
+}
 
+a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: #F2D6AE; /* Couleur personnalisée */
+}
 
-
-
+a:visited {
+    text-decoration: none; /* Supprime le soulignement pour les liens visités */
+}
