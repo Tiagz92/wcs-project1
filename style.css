@@ -1,0 +1,72 @@
+body {
+    font-family: "Josefin sans";
+}
+
+.colorful-bar {
+    background-color: #404f69 ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 4%;
+}
+
+.titre-bar {
+    color: #F2D6AE;
+    margin-left:25%;
+    text-align:center;
+    flex-grow:1 ;
+    font-size: 50px;
+    padding: 5%;
+}
+
+.cercle {
+    border-radius: 100%; /* Pour un cercle parfait */
+    width: 210px; /* Ajuste la largeur */
+    height: 210px; /* Ajuste la hauteur pour l'ovale */
+        /*margin-right: 250px; /* Ajuste la marge à gauche */
+    object-fit: cover;
+    border: 2px solid pink;
+    margin-right: 20%;
+}
+
+main {
+    padding: 20px; /* Espacement intérieur du contenu principal */
+    min-height: 700px; /* Assure un minimum de hauteur pour le contenu */
+    background-color: #F2D6AE;
+}
+
+
+
+
+
+footer {
+    background-color: #404f69;
+    padding: 65px;
+
+}
+
+
+
+.Copyright-logos {
+    display: flex; /* Utilise Flexbox pour l'alignement */
+    align-items: center; /* Centre verticalement les éléments */
+    justify-content: flex-end; /* Aligne la liste à droite */
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+    margin: 0; /* Supprime la marge par défaut */
+    gap: 5px; /* Espace entre les logos */
+}
+
+.Copyright-logos li {
+    /* Optionnel : ajout d'un style pour les <li> */
+    margin-left: 10px; /* Ajoutez une marge à gauche si nécessaire */
+}
+
+
+
+
+
+
+
+
+
