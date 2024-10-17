@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" type="image/png" href="images/yoda.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>DysWay</title>
+    <link rel="stylesheet" type="text/css" href="reset.css"/>
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 640px)"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
     <header>
@@ -21,9 +23,12 @@
     <main>
         <h1>Quel est le point commun entre ces trois personnes?</h1>
     <div class="small-image">
-        <img src="images\ressource\apple.png" class="pomme" alt="belle pomme rouge"/>
-        <img src="images\ressource\camera.png" class="caméra" alt="caméra de réalisateur"/>
-        <img src="images\ressource\voiture.png" class="voiture" alt="voiture de F1"/>
+        <a href="https://fr.wikipedia.org/wiki/Steve_Jobs" target="_blank">
+            <img src="images\ressource\apple.png" class="pomme" alt="belle pomme rouge"></a>
+        <a href="https://fr.wikipedia.org/wiki/Steven_Spielberg" target="_blank">
+            <img src="images\ressource\camera.png" class="caméra" alt="caméra de réalisateur"></a>
+        <a href="https://fr.wikipedia.org/wiki/Lewis_Hamilton" target="_blank">
+        <img src="images\ressource\voiture.png" class="voiture" alt="voiture de F1"/></a>
     </div>
     <div class="card-container">
         <div class="card">
@@ -36,7 +41,7 @@
                     </div>
                 </div>
                 <div class="card-back">
-                    <p>« L'innovation, c’est ce qui distingue un leader d’un suiveur.»</p>
+                    <p>« Innover, c'est savoir abandonner des milliers de bonnes idées.»</p>
                 </div>
             </div>
         </div>
@@ -73,9 +78,9 @@
             <details>
                 <summary>Alors ?</summary>
                 <div class="spoiler-content">
-                    <img src="images/ressource/sparkles.png" class="sparkles"/> 
+                    <img src="images/ressource/sparkles.png" alt="étoiles brillantes" class="sparkles"/> 
                     Et bien, ils sont tous dyslexiques !
-                    <img src="images/ressource/sparkles.png" class="sparkles"/>
+                    <img src="images/ressource/sparkles.png" alt="étoiles brillantes" class="sparkles"/>
                 </div>
                 </details>
 
@@ -85,10 +90,11 @@
         <h1 class="main-title">La dyslexie, késako ?</h1>
         <p class="description">La dyslexie est un trouble de l'apprentissage qui rend la lecture et l'écriture plus difficiles, sans affecter l'intelligence. Bien qu'elle pose des défis, la dyslexie offre aussi des avantages, comme une pensée créative et de solides compétences en résolution de problèmes. LinkedIn reconnaît aujourd'hui la pensée dyslexique comme un atout, valorisant ces talents uniques dans le monde professionnel.
         </p>
-        
+
     </div>
+
     <div class="carousel">
-        <h2 class="subtitle">Ils sont aussi dyslexiques. Pourriez-vous deviner qui ils sont ?</h2>
+        <h2 class="subtitle">Ils sont aussi dyslexiques. <br>Pourriez-vous deviner qui ils sont ?</h2>
         <div class="slides">
             <img src="images/carrousel/Agatha_Christie.png" alt="Agatha Christie">
             <img src="images/carrousel/cher.jpg" alt="Cher">
@@ -111,29 +117,24 @@
             comme trouble du développement des acquisitions en 1991.</p>    
     </section>
     </div>
+    <h2 class="troubles">Il existe d'autres formes de dys.</h2>
     <section class="autres-dys">
-        <h1 class="troubles">Il existe d'autres formes de dys.</h1>
-        <div img src="projet-emilie\images\ressource\photo-dys.jpg" alt="troubles dys" class="troubles-dys">
+        <img src="images\ressource\photo-dys.jpg" alt="les troubles dys" class="troubles-dys"/>
             <ul class="liste-troubles">
             <li>✦ Dysorthographie</li>
             <li>✦ Dyscalculie</li>
             <li>✦ Dysphasie</li>
             <li>✦ Dyspraxie</li>
             <li>✦ TDAH ou TDA </li>
-    
         </ul>
-        </div>
+        <div class="bouton-lien">
+            <a href="https://www.inserm.fr/dossier/troubles-specifiques-apprentissages/" class="lien" target="_blank" rel="noopener noreferrer">En savoir plus</a>
+            </div>
     </section>
     </main>
-
-
-
-
-
     <footer> 
         <ul class="Copyright-logos">
-
-          <li class="copyright">&copy; 2024 DysWay. Tous droits réservés.</li>
+          <li class="copyright">&copy; 2024 DysWay. <br>Tous droits réservés.</li>
 
           <li>
               <a href="https://www.facebook.com/association.ffdys/" target="_blank">
@@ -147,7 +148,7 @@
          </li>
        
           <li>         
-              <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F2976462%2Fadmin%2F" target="_blank">
+              <a href="https://www.linkedin.com/company/ffdys/" target="_blank">
               <img src="images\linkedin-logo_4096186.png" alt="twitter Logo" target="_blank">
            
           </li>

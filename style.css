@@ -18,9 +18,6 @@
 body {
     font-family: "Josefin sans";
     background-color:var(--primarycolor);
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start
 }
 
 .colorful-bar {
@@ -36,7 +33,7 @@ body {
     margin-left:25%;
     text-align:center;
     flex-grow:1 ;
-    font-size: 50px;
+    font-size: 4.5rem;
     padding: 5%;
 }
 
@@ -50,26 +47,26 @@ body {
     margin-right: 20%;
 }
 
-
 h1 {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 30px;
     color: var(--secondcolor);
     font-weight: 700;
-    font-size: 26px;
+    font-size: 1.75rem;
 }
 
 .small-image {
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
+    padding-bottom: 10px;
 }
 
 
 .small-image img {
     border-radius: 100%;
-    margin: 45px;
+    margin: 30px;
     width: 40px;
 }
 
@@ -108,14 +105,14 @@ h1 {
 .card-back {
     background-color: var(--secondcolor);
     color: var(--primarycolor);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.25);
     transform: rotateY(180deg);
     display: flex;
     justify-content: center;
     align-items: center;
     text-indent: 15px;
-    font-size: 18px;
+    font-size: 1.25rem;
 }
 
 .card-container {
@@ -123,7 +120,6 @@ h1 {
     justify-content: space-evenly;
     align-items: flex-start; ; 
     padding: 20px; 
-    background-color: #F2D6AE; 
 }
 
 .steve-jobs {
@@ -139,14 +135,14 @@ h1 {
     box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.25);
     border: 2px solid #404F69;
     width: 100%;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 .steve-description h3 {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.25rem;
     padding: 10px;
 }
 
@@ -154,8 +150,8 @@ h1 {
     display: flex;
     justify-content: center;
     font-style: italic;
-    font-size: 15px;
-
+    font-size: 1rem;
+    padding: 5px;
 }
 
 .steven-spielberg {
@@ -171,14 +167,14 @@ h1 {
     box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.25);
     border: 2px solid #404F69;
     width: 100%;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 .spielberg-description h3 {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.25rem;
     padding: 10px;
 
 }
@@ -187,7 +183,8 @@ h1 {
     display: flex;
     justify-content: center;
     font-style: italic;
-    font-size: 15px;
+    font-size: 1rem;
+    padding: 5px;
 
 }
 
@@ -204,15 +201,14 @@ h1 {
     box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.25);
     border: 2px solid #404F69;
     width: 100%;
-    padding-bottom: 5px;
-
+    padding: 5px;
 }
 
 .lewis-description h3 {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.25rem;
     padding: 10px;
 
 }
@@ -221,7 +217,8 @@ h1 {
     display: flex;
     justify-content: center;
     font-style: italic;
-    font-size: 15px;
+    font-size: 1rem;
+    padding: 5px;
 
 }
 
@@ -230,7 +227,7 @@ summary {
     display: flex;
     justify-content: center;
     font-style: italic;
-    font-size: 24px;
+    font-size: 1.90rem;
     cursor:pointer;
     color: var(--secondcolor);
 }
@@ -238,7 +235,7 @@ summary {
 .spoiler-content {
     margin-top: 30px;
     color: var(--secondcolor);
-    font-size: 24px;
+    font-size: 1.75rem;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -255,13 +252,14 @@ summary {
 
 .main-title {
     font-size: 2rem;
+    padding-bottom: 5px;
     text-align: center;
     color: var(--primarycolor);
 }
 
 .description {
     font-size: 1rem;
-    line-height: 1.2;
+    line-height: 1.8;
     padding: 5px;
 }
 
@@ -270,7 +268,7 @@ summary {
     background-color: var(--secondcolor);
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
     color: var(--primarycolor);
     margin: 100px;
 }
@@ -284,11 +282,13 @@ summary {
 
 /* Styles pour les sous-titres */
 .subtitle {
-    margin-top: 40px;
-    font-size: 1.5rem;
-    text-align: center;
-    color: #2C2C2C;
+    color: var(--secondcolor);
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
     font-style: italic;
+    padding-bottom: 10px;
 }
 
 /* Styles pour la section historique */
@@ -304,34 +304,38 @@ summary {
     margin-right: 20px;
     width: 150px;
     height: 150px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.25);
 }
 
 figcaption {
     color: var(--secondcolor);
-    font-size: 16px;
+    font-size: 1.2rem;
     font-weight: 600;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
 .historique-text {
     font-size: 1rem;
+    line-height: 1.8;
     max-width: 600px;
     background-color: var(--secondcolor);
     color: var(--primarycolor);
     padding: 20px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.25);
 
 }
 
 /* Styles pour le carrousel */
 .carousel {
+    font-size: 1rem;
     width: 510px;
     height: 300px;
     margin: 40px auto;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.25);
     position: relative;
 }
 
@@ -348,17 +352,61 @@ figcaption {
     flex-shrink: 0;
 }
 
-footer {
+.troubles {
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+    color: var(--secondcolor);
+    margin: 30px;
+}
 
+.autres-dys {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.troubles-dys {
+    width: 400px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.liste-troubles {
+    list-style: none;
+    font-size: 1rem;
+    color: var(--primarycolor);
+    background-color: var(--secondcolor);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.bouton-lien {
+    background-color: var(--thirdcolor);
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.50);
+    display: inline-flex;
+    padding: 22px 24px;      
+    text-align: center; 
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 100px;
+}
+
+.lien {
+    color: white;
+}
+
+footer {
     display: flex; /* Utilise Flexbox pour le footer */
     justify-content: center; /* Centre les éléments du footer */
     align-items: center; /* Centre verticalement */
     background-color: #404f69;
     padding: 40px;
-
 }
-
-
 
 .Copyright-logos {
     display: flex; /* Utilise Flexbox pour l'alignement */
@@ -385,12 +433,10 @@ footer {
 
 
 .copyright {
-    
     margin-right: 250px;
     color: #F2D6AE;
-   
+    width: 15%;
 }
-
 
 .newsletter {
     text-align: center;
